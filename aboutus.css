@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.main{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+
+}
+.shadow{
+    filter: drop-shadow(0px 10px 30px #3c3c3c);
+}
+
+.heading{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 55px;
+    clip-path: polygon(0 0,100% 0,100% 100px,50% 160px,0 100px,0 0);
+    background: linear-gradient(to top right, #3399ff 0%, #ff66cc 100%);
+    
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 30px;
+    border-radius:0 10px;
+    box-shadow: -1px 8px 7px 8px darkgrey;
+    background-color: #e0ebeb;
+    
+
+
+}
+.info-text{
+    text-align: justify-all;
+    width:560px ;
+    border-right: 2px solid darkgrey;
+}
+.info-text h1{
+    font-weight: bold;
+}
+
+.info-text p{ 
+    font-size: 20px;
+    text-align: justify-all;
+    border-right: 3px black;
+    word-spacing: 5px;
+}
+.info-img{
+    padding: 30px;
+    
+}
+
+.info-img img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+
+
+}
+.quotes{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-bottom: 70px;
+    
+
+}
+.q-img{
+    border-radius: 15px;
+    border: 3px solid blueviolet;
+    box-shadow: -1px 8px 7px 8px darkgray ;
+}
+.q-img img{
+    padding:30px;
+    height: 250px;
+    width: 400px;
+    border-radius: 20%;
+    
+}
+.mem-heading{
+    text-align:center ;
+    font-size: 40px;
+    text-transform: capitalize;
+    background-color: #fff;
+    
+}
+
+.member{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px ;
+}
+.mem-1{
+    padding-right: 75px;
+    background: #e0ebeb;
+    margin: 5px;
+    padding: 40px;
+
+}
+.mem-1 img{
+    margin: 20px;
+}
+
+    
+.mem-2{
+    padding: 55px;
+    background: #e0ebeb;
+    margin: 5px;
+    width: 350px;
+}
+.mem-2 img{
+    margin: 20px;
+    width: 300px;
+}
+
+.achievement{
+    background: #fff;
+    display: flex;
+}
+.achievement img{
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+}
+.achievement p{
+    padding: 50px;
+    letter-spacing: 1px;
+    width: 500px;
+    font-size: 25px;
+    align-self: center;
+    margin-top:25px;
+}
+.achievement p button{
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: transparent;
+
+}
